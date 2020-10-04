@@ -1,0 +1,79 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Georgia",Times New Roman,Times,serif;
+    color: #333333;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+}
+
+header {
+	background-color: #333333;
+}
+
+h1 {
+	color: white;
+	font-size: 28px;
+	text-align: center;
+    padding: 20px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#main-bio, #bio-image, #contact-info {
+    float: left;
+}
+
+#bio-image {
+	width: 200px;
+    margin-right: 20px;
+}
+
+#main-bio {
+	width: 70%;
+	line-height: 150%;
+}
+
+#contact-info {
+	width: 30%;
+	line-height: 150%;
+}
+
+a {
+	color: #d21034;
+}
+
+h3 {
+	position: absolute;
+  	top: 15%;
+  	left: 35%;
+}
+
+/* Box rules: percentages define anchors (i.e. position of each box relative to enclosing box) */
+
+.box-1 {
+	top: 6%;
+	left: 35%;
+  }
+  
+  .box-2 {
+	top: 0;
+	right: -40px;
+  }
+  
+  .box-3 {
+	right: 20px;
+	bottom: -10px;
+  }
+  
+  .box-4 {
+	bottom: 0;
+  }
